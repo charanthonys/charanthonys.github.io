@@ -1,24 +1,24 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+header {
     background-color: #333;
-  }
-  
-li {
-    float: left;
-  }
-  
-li a {
-    display: block;
-    color: white;
+    color: #f12f0d;
+    padding: 20px;
     text-align: center;
-    padding: 14px 16px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #F4C430;
     text-decoration: none;
-  }
-  
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-  }
+}
